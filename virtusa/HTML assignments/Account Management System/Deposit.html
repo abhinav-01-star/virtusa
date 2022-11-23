@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Deposit</title>
+    <link rel="stylesheet" href="Deposit.css">
+    <script>
+        function result() {
+            alert("Balance Updated")
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <h1><span>MONEY DEPOSIT</span> </h1>
+        <form onsubmit="result()">
+            <table>
+                <tr>
+                    <td><label>From</label></td>
+                    <td><input type="text" placeholder="Account Number"/></td>
+                </tr>
+                <tr>
+                    <td><label>To</label></td>
+                    <td><input type="text" placeholder="Account Number" />
+                </tr> 
+                <tr>
+                    <td><label>Amount</label></td>
+                    <td><input type="number" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        <form action="CreateAccount.html">
+            <input type="button" value="Perform Transaction" title="Deposit" onclick="result()" />
+            <input type="submit" value="Cancel" title="Cancel" >
+        </form>
+
+    </center>
+</body>
+</html>

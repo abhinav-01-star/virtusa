@@ -1,0 +1,28 @@
+﻿html{
+    margin:100px;
+    padding:100px;
+}
+body{
+    background-color:black;
+}
+div {
+    box-sizing:border-box;
+    align-content:center;
+    /*border: 5px solid red;*/
+    border-radius: 30px;
+    /*margin: 0px 220px 110px 220px;*/
+    /*background-color: black;*/
+    /*padding: inherit;*/
+    background-color: white;
+    /*padding:0px;
+    margin:10px;*/
+}
+label{
+    color:ActiveBorder;
+}
+table{  
+    align-content:center;
+    /*border:dashed;*/
+    margin:4px;
+    padding:40px;
+}

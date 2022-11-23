@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="CreateAccount.css" />
+    <script>
+        
+        function result() {
+    alert("Account Created")
+}
+    </script>
+</head>
+<body>
+    <h1 align="center"> 
+    
+        <span>ENTER YOUR DETAILS</span>
+    </h1>
+    
+    <div align="center">
+    <form>
+        <table>
+            <tr>
+                <td><label>First Name</label></td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td><label>Last Name</label></td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td><label>So/Do</label></td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><label>Male</label><input type="radio" /> <label>Female</label><input type="radio" /></td>
+            </tr>
+            <tr>
+                <td><label>DOB</label></td>
+                <td><input type="date" /></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="email" /></td>
+            </tr>
+            <tr>
+                <td><label>Address</label></td>
+                <td><textarea id="TextArea1" rows="2" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Account types">Account type:</label>
+                </td>
+                <td><select name="types" id="atypes">
+                    <option >Choose</option>
+                    <option value="Savings">Savings</option>
+                    <option value="Current">Current</option></select>
+                </td>
+            </tr>
+        </table>
+        <br />
+        &ensp;<input type="button" value="Submit" onclick="result()" />&ensp;&ensp;
+        <input type="reset" value="Reset" />
+        
+        
+    </form>
+        </div>
+</body>
+</html>

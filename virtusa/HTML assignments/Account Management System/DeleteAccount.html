@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>DA</title>
+    <link rel="stylesheet" href="DeleteAccount.css" />
+    <script>
+        function DA() {
+            alert("Account Deleted");
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <form>
+            <table>
+                <thead><h1><span>DELETE ACCOUNT</span></h1></thead>
+                <tr>
+                    <td>
+                        <label>
+                            Account No
+                        </label>
+                    </td>
+                    <td><input type="email" /><br /></td>
+                </tr>
+                <tr>
+                    <td><label>Reason:</label></td>
+                    <td><input type="textarea" rows=2 col=50 /><br /></td>
+                </tr>
+                <tr>
+                    <td><label>Are you sure you want to delete this account?</label></td>
+                    <td>
+                        <input type="radio" /><label>Yes</label>&nbsp;
+                        <input type="radio" /><label>No</label><br />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <input type="button" onclick="DA()" value="Submit" />
+        </form>
+    </center>
+</body>
+</html>

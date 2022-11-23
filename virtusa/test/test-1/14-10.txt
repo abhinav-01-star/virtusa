@@ -1,0 +1,20 @@
+WAP TO READ A NUMBER AND CONVERT TO string , if the number of digits is odd then reverse the string else reverse first half and second half 
+Example:
+si1:
+1234567
+7654321
+si2:
+135792
+531297
+
+Replace every character with a next 3rd character from a given string
+input1:
+Enter a string
+abcd
+output1:
+defg
+
+input2:
+Enter a string
+xza
+acd

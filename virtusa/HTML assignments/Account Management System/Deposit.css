@@ -1,0 +1,44 @@
+h1{
+    color:white;
+}
+span {
+    position: relative;
+    /*height:40px;*/
+    width: 100%;
+    border-color: white;
+    border-bottom: solid;
+}
+body{
+    color:white;
+    font-size:22px;
+    animation:blinker 5s ease-in-out normal;
+}
+
+@keyframes blinker {
+    0% {
+        
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}   
+table{
+    border-spacing:10px;
+}
+input[type='number']:invalid{
+    background-color:red;
+}
+input[type='submit'],input[type='button'] {
+    border-color: white;
+    color: white;
+    background-color: green;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input[type=button]:focus,input[type='submit']:focus {
+    background-color: powderblue;
+    color: red;
+}

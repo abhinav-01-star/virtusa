@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="UpdateAccount.css" />
+    <script>
+        function change() {
+            alert("Updated Succesfully");
+        }
+    </script>
+
+</head>
+<body>
+
+    <form>
+        <center>
+            <table>
+                <thead><h1><span>UPDATE DETAILS</span></h1></thead>
+                <tr>
+                    <td><label>Account No</label></td>
+                    <td>: <input type="text" placeholder="type your account number"/></td>
+                </tr>
+                <tr>
+                    <td><label>Enter The Field</label></td>
+                    <td>: <select name="field" id="afields">
+                        <option >Choose</option>
+                        <option value="First Name">First Name</option>
+                        <option value="Last Name">Last Name</option>
+                        <option value="DOB">Date of Birth</option>
+                        <option value="First Name">First Name</option>
+                        <option value="Address">Address</option></select></td>
+                </tr>
+                <tr>
+                    <td><label>Enter The Value</label></td>
+                    <td>: <input type="text" /></td>
+                </tr>
+            </table>
+        </center>
+        <br />
+        <input type="button" onclick="change()" value="Submit" />
+        <input type="reset" value="Reset" />
+    </form>
+    
+</body>
+</html>

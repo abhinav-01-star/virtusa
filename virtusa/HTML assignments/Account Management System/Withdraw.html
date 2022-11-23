@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="Withdraw.css">
+    <script>
+        function result() {
+            alert("Amount Withdrawed:"+ document.getElementById('Amount').value);
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <h1><span>WITHDRAW AMOUNT</span></h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Account No:</label></td>
+                    <td><input type="text" />
+                </tr>
+                <tr>
+                    <td><label>Amount</label></td>
+                    <td><input id="Amount" type="number" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        <input type="button" value="Withdraw" onclick="result()" title="Withdraw" />
+    </center>
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿table {
+    color: white;
+    /*border:2px solid white;*/
+    empty-cells: show;
+}
+span {
+    position: relative;
+    /*height:40px;*/
+    width: 100%;
+    border-color: white;
+    border-bottom: solid;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    font-size:24px;
+    text-align: center;
+    color: white;
+    /*background-color: black;*/
+    animation: blinker 3s ease-in-out normal;
+}
+
+
+@keyframes blinker {
+    0% {
+        /*background-color:white;*/
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+input[type=button] {
+    border-color: white;
+    color: white;
+    background-color: green;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input[type=button]:focus {
+    background-color: powderblue;
+    color: red;
+}
+input[type=reset] {
+    border-color: white;
+    color: white;
+    background-color: green;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+    input[type=reset]:focus {
+        background-color: powderblue;
+        color: red;
+    }

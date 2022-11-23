@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HomePage</title>
+    <link rel="stylesheet" href ="Main.css">
+    <script>
+        function change(name) {
+            const h = document.getElementById('iframe1');
+            h.setAttribute('src', name);
+        }
+    </script>
+</head>
+<body>
+    <h1>
+        <img src="image.png" alt="Image Cant be displayed" height="50px" width="50px" align="left" title="Image" />
+        <span>
+            Account Management System
+        </span>
+
+    </h1>
+    <div class="pane">
+        <div class="leftpane">
+            <input type="button" onclick="change('CreateAccount.html')" value="Create Account" formtarget="iframe1">
+            <input type="button" onclick="change('UpdateAccount.html')" value="Update Account" formtarget="iframe1">
+            <input type="button" onclick="change('DeleteAccount.html')" value="Delete Account" formtarget="iframe1">
+            <input type="button" onclick="change('Deposit.html')" value="Deposit" formtarget="iframe1" />
+            <input type="button" onclick="change('Withdraw.html')" value="Withdraw" formtarget="iframe1" />
+        </div>
+        <div class="rightpane">
+            <iframe id="iframe1" src=""></iframe>
+        </div>
+    </div>
+    <div class="footer">
+        <input type="button" align="left" value="Terms and Conditions">
+        <input type="button" align="center" value="Privacy terms">
+        <input type="button" align="right" value="Help">
+    </div>
+</body>
+</html>

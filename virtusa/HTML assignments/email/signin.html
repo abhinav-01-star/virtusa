@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign in</title>
+    <link rel="stylesheet" href="ss1.css" />
+    <script>
+        function clear() {
+            document.getElementsByName('form2').reset();
+        }
+    </script>
+</head>
+<body>
+        
+        <br />
+            
+        <div align="center" class="card2">
+            <i></i><i></i><i></i>
+            <form name="form2" action="dashboard.html">
+                <h1 class="blink"><u>Welcome to SignIn</u></h1><br />
+                <span>Email Id&ensp;</span>
+                :<input id="email" type="email" required="required" />
+                <br />
+                <span>Password</span>
+                :<input id="password" type="password" required="required" />
+                <br /><br />
+
+                <input name="submit" type="submit" />
+                <input name="reset" type="reset" onclick="clear()" />
+            </form>
+            <div>
+                <form action="register.html">
+                    <p>
+                        If you are a new user, Click on
+                        <input name="register" type="submit" value="Create Account" />
+                    </p>
+                    <br /><br />
+                </form>
+            </div>
+            <i></i><i></i><i></i>
+        </div>
+
+</body>
+</html>

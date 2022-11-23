@@ -1,0 +1,41 @@
+﻿h1 {
+    color: white;
+}
+span {
+    position: relative;
+    /*height:40px;*/
+    width: 100%;
+    border-color: white;
+    border-bottom: solid;
+}
+body {
+    color:white;
+    font-size:24px;
+    animation: blinker 3s ease-in-out normal;
+}
+input[type='text'],input[type='email']{
+    height:20px;
+}
+@keyframes blinker {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+input[type=button] {
+    border-color: white;
+    color: white;
+    background-color: green;
+    box-sizing: border-box;
+    font-size:18px;
+}
+input[type=button]:focus {
+        background-color: powderblue;
+        color: red;
+}
+table{
+    empty-cells:show;
+}

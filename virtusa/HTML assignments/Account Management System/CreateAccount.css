@@ -1,0 +1,70 @@
+﻿h1 {
+    color: white;
+}
+
+body {
+    /*background-color: black;*/
+    align-content: center;
+    justify-content: center;
+    animation: blinker 4s ease-in-out normal;
+}
+@keyframes blinker{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:100%;
+    }
+}
+span {
+    position:relative;
+    /*height:40px;*/
+    width:100%;
+    border-color:white;
+    border-bottom:solid;
+}
+label {
+    color: white;
+}
+table{
+    
+    height:200px;
+    width:300px;
+    font-size:20px;
+}
+input[type='text']{
+    height:20px;
+    width:150px;
+}
+input[type='email'] {
+    height: 20px;
+    width: 150px;
+}
+textarea {
+    height: 40px;
+    width: 150px;
+}
+input[type=button] {
+    border-color: white;
+    color: white;
+    background-color: green;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input[type=button]:focus {
+    background-color: powderblue;
+    color: red;
+}
+input[type=reset] {
+    border-color: white;
+    color: white;
+    background-color: green;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+    input[type=reset]:focus {
+        background-color: powderblue;
+        color: red;
+    }

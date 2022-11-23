@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Sample Form</title>
+        <script type="text/javascript">
+            function test() 
+            {  
+              var Excel = new ActiveXObject("Excel.Application");  
+              Excel.Visible = true; Excel.Workbooks.open("C:\\Users\\Abhinav Simhadri\\OneDrive\\Desktop\\19-09\\Account Management System\\ExcelTest.xlsx");  
+              var excel_sheet = Excel.Worksheets("Sheet1");  
+              excel_sheet.activate();  
+            }   
+          </script>
+    </head>
+    <!-- <script>
+    //     function write_to_excel()
+    // {
+    // str="C:\Users\Abhinav Simhadri\OneDrive\Desktop\19-09\Account Management System\ExcelTest.xlsx";
+    // var mytable = document.getElementsByTagName("table")[0];
+    // var row_Count = mytable.rows.length;
+    // var col_Count =2;
+    // var ExcelApp = new ActiveXObject("Excel.Application");
+    // ExcelApp.Visible=true;
+    // var ExcelSheet=ExcelApp.Workbooks.Open("C:\\Users\\Abhinav Simhadri\\OneDrive\\Desktop\\19-09\\Account Management System\\ExcelTest.xlsx");
+    // for(var i=0; i < row_Count ; i++)
+    // {
+    // for(var j=0; j < col_Count; j++)
+    // {
+    // str= mytable.getElementsByTagName("tr")[i].getElementsByTagName("td")[j].innerHTML;
+    // ExcelSheet.ActiveSheet.Cells(i+1,j+1).Value = str;
+    // }
+    // }
+    // ExcelSheet.Save("C:\\Users\\Abhinav Simhadri\\OneDrive\\Desktop\\19-09\\Account Management System\\ExcelTest.xlsx");
+    
+    // }
+    
+    </script> -->
+
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label>So/Do</label></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><label>Male</label><input type="radio" /> <label>Female</label><input type="radio" /></td>
+                </tr>
+                <tr>
+                    <td><label>DOB</label></td>
+                    <td><input type="date" /></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" /></td>
+                </tr>
+                <tr>
+                    <td><label>Address</label></td>
+                    <td><textarea id="TextArea1" rows="2" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Account types">Account type:</label>
+                    </td>
+                    <td><select name="types" id="atypes">
+                        <option >Choose</option>
+                        <option value="Savings">Savings</option>
+                        <option value="Current">Current</option></select>
+                    </td>
+                </tr>
+            </table>
+            <br />
+            &ensp;<input type="button" value="Submit" onclick="test()" />&ensp;&ensp;
+            <input type="reset" value="Reset" />
+            
+            
+        </form>
+
+    </body>
+</html>
+
+
